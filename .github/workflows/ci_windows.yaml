@@ -12,7 +12,7 @@ concurrency:
 jobs:
   ci:
     name: Build
-    runs-on: windows-latest
+    runs-on: self-hosted
 
     strategy:
       fail-fast: false
